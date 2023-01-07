@@ -1,46 +1,104 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Data Analyst Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <h1>Welcome to my Data Analyst Website</h1>
-    <p>Here you will find information about my skills, experience, and projects as a data analyst.</p>
-   <nav>
-      <ul>
-         <li><a href="#about">About</a></li>
-         <li><a href="#skills">Skills</a></li>
-         <li><a href="#experience">Experience</a></li>
-         <li><a href="#projects">Projects</a></li>
-      </ul>
-   </nav>
-    <section id="about">
-  <h2>About</h2>
-  <p>Insert information about yourself and your background as a data analyst here.</p>
-</section>
+<head>
+<title>Data Analyst Website</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333333;
+  }
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Data cleaning</li>
-    <li>Data visualization</li>
-    <li>Data analysis</li>
-  </ul>
-</section>
+  #main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
 
-<section id="experience">
-  <h2>Experience</h2>
-  <p>Insert information about your previous experience as a data analyst here.</p>
-</section>
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
 
-<section id="projects">
-  <h2>Projects</h2>
-  <ul>
-    <li>Project 1: Title</li>
-    <li>Project 2: Title</li>
-    <li>Project 3: Title</li>
-  </ul>
-</section>
+  h2 {
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
 
-  </body>
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+  }
+
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #00a2e8;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  #nav {
+    margin-bottom: 10px;
+  }
+
+  #nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  #nav li a {
+    font-weight: bold;
+  }
+
+  #content {
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <div id="main">
+
+    <h1>Data Analyst Website</h1>
+
+    <ul id="nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div id="content">
+      <h2>Data Analysis Services</h2>
+      <p>I specialize in data analysis and data visualization. I have extensive experience in using R and Python for data analysis and I am proficient in using Tableau for data visualization.</p>
+      <p>I can help you with a range of data analysis projects, from simple data cleaning to more complex predictive modeling. I can also create beautiful and informative data visualizations.</p>
+      <p>If you have any questions or would like to discuss potential projects, please don't hesitate to <a href="#">get in touch</a>.</p>
+    </div>
+
+  </div>
+</body>
 </html>
