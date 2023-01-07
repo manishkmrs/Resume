@@ -39,3 +39,14 @@ section {
 h2 {
   border-bottom: 2px solid #333;
 }
+
+@media (max-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}
